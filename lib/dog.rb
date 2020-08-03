@@ -5,9 +5,10 @@ class Dog
      @no_breed = "Mutt"
   end
  
-  def breed=(breed)
+  def breed=(breed, name, no_breed)
     @breed = breed
-    
+    @name = name
+    @no_breed = "Mutt"
   end
  
   def breed
