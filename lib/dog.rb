@@ -13,5 +13,3 @@ class Dog
     @breed
   end
 end
-
-Fido = Dog.new()
